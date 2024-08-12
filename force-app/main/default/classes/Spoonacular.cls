@@ -1,16 +1,7 @@
-/**
- * @description       : 
- * @author            : ChangeMeIn@UserSettingsUnder.SFDoc
- * @group             : 
- * @last modified on  : 06-21-2021
- * @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
- * Modifications Log 
- * Ver   Date         Author                               Modification
- * 1.0   06-05-2021   ChangeMeIn@UserSettingsUnder.SFDoc   Initial Version
-**/
+
 public with sharing class Spoonacular {
     private static final String RECEIPE_API = 'https://api.spoonacular.com';
-    private static final String API_KEY = 'replace_this_with_your_api_key';
+    private static final String API_KEY = '48f5956ccfa44f40a1635d82df1770c4';
 
     @AuraEnabled
     public static String getRandomRecipe(){
